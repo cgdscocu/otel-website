@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        h1{
+        text-align: center;
+        margin-top: 1cm;
+    }
+    </style>
+    <h1> CheapHotel </h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us </a>
+              </li>        
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/custom.css">
+        
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1174.0" data-gr-ext-installed="">
+    
+
+
+
+
+      <div class="container mt-5">
+      <p>If you have any questions or comments, please fill this form.</p>
+      
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
+    
+    
+    
+        <div id="divListPopup" style="display: none; z-index: 999998; position: fixed; width: 855px; top: 0px; height: 774px; margin: 5px; background-color: white; border: 2px solid rgb(41, 56, 70);">
+            
+                <div id="divListPopupCloser" class="popupCloseButton" onmouseover="this.style.color='#111';" onmouseout="this.style.color='#aaa';" style="position:absolute; color: #aaa; right: 0; top: 0; cursor:pointer;
+                    font-size: 22px; font-weight: bold; z-index: 999999; margin-right:5px; margin-top:0px;">✖</div>
+                
+            
+        </div> <div style="clear:both;"></div><div id="divLoginPopup" style="height:340px;display:none;z-index: 999999;padding-bottom: 10px ;position: fixed; width: 320px;
+            right: 10px; top: 10px;background-color: rgb(254, 254, 254); border: solid 2px #d5d5d5; border-radius: 5px;">
+            
+                <div id="divLoginPopupCloser" class="popupCloseButton" onmouseover="this.style.color='#111';" onmouseout="this.style.color='#aaa';" style="position:absolute; color: #aaa; right: 0; top: 0; cursor:pointer;
+                    font-size: 22px; font-weight: bold; z-index: 999999; margin-right:5px; margin-top:0px;">✖</div>
+                
+            <div style="line-height:20px;padding:10px;text-align: center;">
+                <img src="https://emparator.com/images/logo/emparator2.jpg" style="height:50px; margin-top: 3px;">
+                <div id="divLoginSuccessful" style="display:none;color: #293846; font-size: 20px; font-weight: 600; height: 80px;
+                    text-align: center; margin: 20px;">
+                    <div style="font-size: 20px;">Giriş Başarılı</div>
+                    <div style="font-size: 14px; margin-top: 20px;">Eklenti araçları aktive ediliyor...</div>
+                </div>
+                <div id="divLoginForm" style="margin-top:20px;">
+                        <h4 style="color: #293846; font-size:14px">Giriş yapmak için e-posta adresi ve şifrenizi yazıp Giriş Yap butonuna tıklayınız.</h4>
+                    <div>
+                        <input style="width: 90%; font-size: 13px; margin-top: 10px; padding: 7px; border:solid 2px #d5d5d5; border-radius:5px " id="txtEmparatorUsername" placeholder="E-posta Adresi" autocomplete="username">
+                    </div>
+                    <div>
+                    <input style="width: 90%; font-size: 13px; margin-top: 14px; padding: 7px; border:solid 2px #d5d5d5; border-radius:5px; background-color: white; " type="password" id="txtEmparatorPassword" placeholder="Şifre" autocomplete="current-password"> </div>
+                    
+                    <input style="margin-top: 8px;margin-bottom: 8px;background-color: #1ab394;color: #fefefe;
+                        border: 0px;border-radius: 5px;font-weight: 400;font-size: 14px;width: 150px;height: 30px;cursor: pointer;
+                        padding:1px;" id="buttonForLogin" type="button" value="Giriş Yap"> </div>
+    
+                        <div style="text-align: center;display: block; margin-top:5px;"> Henüz kayıt olmadınız mı? </div>
+                    <div style="text-align: center;display: inline-block;"><a href="https://emparator.com/Account/Register" target="_blank" style="margin-top: 8px;margin-bottom: 8px;background-color: #fefefe;color: #1ab394;
+                       border-bottom: 1px solid #1ab394; border-radius: 2px; font-size: 13px;width: 150px;height: 22px;cursor: pointer;
+                        padding:1px; text-decoration:none;
+                        ">Yeni Hesap Oluştur</a> </div>
+    
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+            <div style="clear:left;"></div>
+        </div>
+        <div id="divProductSearchPopup" style="display:none;z-index: 999999; position: fixed; width: 350px; right: 5px; top: 5px;
+        background-color: rgb(254, 254, 254); border: solid 2px #d5d5d5; border-radius: 5px;">
+    
+            <div style="position:absolute; color: #aaa; z-index: 999999; margin-left: 8px; margin-top: 5px;">
+                <img src="https://emparator.com/images/logo/amblem1.png" style="height: 50px; margin-left: 0;margin-top: 0px;z-index: 2;position: absolute;"></div>
+    
+            
+                <div id="divProductSearchPopupCloser" class="popupCloseButton" onmouseover="this.style.color='#111';" onmouseout="this.style.color='#aaa';" style="position:absolute; color: #aaa; right: 0; top: 0; cursor:pointer;
+                    font-size: 22px; font-weight: bold; z-index: 999999; margin-right:5px; margin-top:0px;">✖</div>
+                
+    
+            <div style="color:rgb(26, 179, 148); text-align:center;font-weight:bold; font-size: 18px; text-align: center;  margin-left:15px; margin-top: 20px;">
+                Ürün Sıralama Bulucu</div>
+    
+            <div style="line-height:20px;padding:10px;text-align: center; background-color: #1ab394; margin-top: 20px;">
+                <div id="acSearchProductInfo" style="color:#fefefe;text-align:center;font-weight:bold;margin-top: 8px;margin-bottom: 10px;
+                    border: 2px solid #fefefe;border-radius: 10px;margin-left: 15px;margin-right: 15px;padding: 10px;font-size: 14px;">
+    
+                    Aramak istediğiniz ürün kodunu girip <br> Ürünü Bul butonuna tıklayınız.
+                </div>
+                <div>
+                    <input style="width: 85%;font-size: 14px;font-weight: 600;color: #555;margin-top: 14px;text-align: center;
+                    padding: 7px;border:solid 2px #d5d5d5; border-radius:5px" id="acProductCode" placeholder="Ürün Kodu">
+    
+                    <input style="margin-top: 15px;margin-bottom: 5px;background-color: #293846; color: #fefefe;border: 0px;
+                    border-radius: 5px;font-weight: 600;font-size: 14px;width: 50%;height: 25px;cursor: pointer;padding: 5px;" id="acSearchProduct" type="button" value="Ürünü Bul">
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div style="clear:left;"></div></div>
+                <div id="divMenu" style="display:none;z-index: 999998; position: fixed; width: 240px; right: 2px; top: 2px;
+                    background-color: rgb(254, 254, 254); border: solid 2px #d5d5d5; border-radius: 5px;">
+                    <div style="text-align: center !important; margin-top:-10px;">
+                        <img src="https://emparator.com/images/logo/emparator.png" style="height: 90px;">
+                    </div>
+    
+                    <button class="acListPopupButton" style="border: 1px solid rgb(213, 213, 213); font-family: Arial, Geneva, Arial, Helvetica, sans-serif; color: rgb(26, 179, 148); letter-spacing: 1px; padding: 8px 12px; font-size: 14px; font-weight: normal; width: 200px; border-radius: 4px; line-height: 1.5; margin-left: 20px; margin-top: -10px; cursor: pointer; box-shadow: rgba(56, 56, 56, 0.5) 0px 1px 4px 0px; background-color: white; opacity: 0.5;" disabled="disabled">
+                    Detaylı Liste</button>
+    
+                    <button class="acListingOrderFinderButton" style="border: 1px solid rgb(213, 213, 213); font-family: Arial, Geneva, Arial, Helvetica, sans-serif; color: rgb(26, 179, 148); letter-spacing: 1px; padding: 8px 12px; font-size: 14px; font-weight: normal; width: 200px; border-radius: 4px; line-height: 1.5; text-decoration: none; margin-left: 20px; margin-top: 10px; cursor: pointer; box-shadow: rgba(56, 56, 56, 0.5) 0px 1px 4px 0px; background-color: white; opacity: 0.5;" disabled="disabled">
+                    Ürün Sıralama Bulucu</button>
+    
+                    <button class="acProfitCalculatorButton" style="border: 1px solid rgb(213, 213, 213); font-family: Arial, Geneva, Arial, Helvetica, sans-serif; color: rgb(26, 179, 148); letter-spacing: 1px; padding: 8px 12px; font-size: 14px; font-weight: normal; width: 200px; border-radius: 4px; line-height: 1.5; text-decoration: none; margin-left: 20px; margin-top: 10px; cursor: pointer; box-shadow: rgba(56, 56, 56, 0.5) 0px 1px 4px 0px; background-color: white; opacity: 0.5;" disabled="disabled">
+                    Kar Hesaplama</button>
+    
+                    <button class="acProductScoreButton" style="border: 1px solid rgb(213, 213, 213); font-family: Arial, Geneva, Arial, Helvetica, sans-serif; color: rgb(26, 179, 148); letter-spacing: 1px; padding: 8px 12px; font-size: 14px; font-weight: normal; width: 200px; border-radius: 4px; line-height: 1.5; margin-left: 20px; margin-top: 10px; cursor: pointer; box-shadow: rgba(56, 56, 56, 0.5) 0px 1px 4px 0px; background-color: white; opacity: 0.5;" disabled="disabled">
+                    Liste Skoru</button>
+    
+                    <button class="acSeeOnEmparatorButton" style="border: 1px solid rgb(213, 213, 213); font-family: Arial, Geneva, Arial, Helvetica, sans-serif; color: rgb(26, 179, 148); letter-spacing: 1px; padding: 8px 12px; font-size: 14px; font-weight: normal; width: 200px; border-radius: 4px; line-height: 1.5; margin-left: 20px; margin-top: 10px; margin-bottom: 10px; cursor: pointer; box-shadow: rgba(56, 56, 56, 0.5) 0px 1px 4px 0px; background-color: white; opacity: 0.5;" disabled="disabled">
+                    Emparator.com'da Gör</button>
+    
+                    <button class="acProfileButton" style="background-color:#23c5c8; border: #293846; font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+                    color: #fff; letter-spacing: 1px; padding: 8px 12px; font-size: 12px; font-weight: normal; width: 98px;
+                    border-radius: 4px; line-height: 1;  margin-left:20px; margin-top:10px; margin-bottom:10px;cursor: pointer">
+                    Profile Git</button>
+    
+                    <button class="acSignOutButton" style="background-color:#23c5c8; border: #293846; font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+                    color: #fff; letter-spacing: 1px; padding: 8px 12px; font-size: 12px; font-weight: normal; width: 98px;
+                    border-radius: 4px; line-height: 1;  margin-left:0px; margin-top:10px; margin-bottom:10px; cursor: pointer">
+                   Çıkış Yap</button>
+                </div> </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+     </body>
+</html>

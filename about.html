@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hakkımızda - Dime Hotels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+      }
+
+      .navbar {
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+
+      .about-header {
+        background-color: #0d6efd;
+        color: white;
+        padding: 50px 0;
+        margin-bottom: 30px;
+      }
+
+      .about-content {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+      }
+
+      .feature-box {
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      .feature-box i {
+        font-size: 40px;
+        color: #0d6efd;
+        margin-bottom: 15px;
+      }
+
+      .feedback-form {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">Dime Hotels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about-header text-center">
+      <div class="container">
+        <h1>Hakkımızda</h1>
+        <p class="lead">Dime Hotels olarak misafirlerimize en iyi hizmeti sunmak için çalışıyoruz.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="about-content">
+            <h2>Biz Kimiz?</h2>
+            <p>Dime Hotels, Galata Tower'a çok yakın olan bankerhan mahallesinde yer almaktadır. Bankerhan mahallesi, tarihi ve kültürel açıdan zengin bir semt olup İstanbul'un en canlı ve ilgi çekici bölgelerinden biridir.</p>
+            
+            <p>Otelimiz modern ve konforlu odalarıyla dikkat çekerken, aynı zamanda bankerhan mahallesinin tarihi dokusunu da korumaktadır. Çevredeki restoranlar, kafeler ve turistik noktalar ile olan yakınlığıyla konuklarımıza İstanbul'u keşfetme fırsatı sunuyoruz.</p>
+            
+            <p>Personelimiz misafirlerimizin rahatı ve memnuniyeti için gece gündüz çalışmaktadır. Sıcak ve samimi bir ortam sunarak konuklarımızın evlerindeymiş gibi hissetmelerini sağlıyoruz.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feedback-form">
+            <h3>Geri Bildirim</h3>
+            <form id="feedbackForm">
+              <div class="mb-3">
+                <label for="feedbackText" class="form-label">Görüşleriniz bizim için değerli</label>
+                <textarea class="form-control" id="feedbackText" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Gönder</button>
+            </form>
+            <div id="feedbackMessage" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="feature-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Mükemmel Konum</h3>
+            <p>İstanbul'un kalbinde, tüm önemli noktalara yakın</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <i class="fas fa-concierge-bell"></i>
+            <h3>7/24 Hizmet</h3>
+            <p>Her zaman yanınızda olan profesyonel ekibimiz</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <i class="fas fa-star"></i>
+            <h3>Kaliteli Hizmet</h3>
+            <p>Misafirlerimizin memnuniyeti önceliğimiz</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light mt-5 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>İletişim</h5>
+            <p>Email: info@dimehotels.com</p>
+            <p>Tel: +90 123 456 7890</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Hızlı Bağlantılar</h5>
+            <ul class="list-unstyled">
+              <li><a href="home.html" class="text-light">Ana Sayfa</a></li>
+              <li><a href="about.html" class="text-light">Hakkımızda</a></li>
+              <li><a href="contact.html" class="text-light">İletişim</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Sosyal Medya</h5>
+            <div class="social-links">
+              <a href="#" class="text-light me-2"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const feedbackText = document.getElementById('feedbackText').value;
+        const messageElement = document.getElementById('feedbackMessage');
+        
+        if (feedbackText.trim() === '') {
+          messageElement.innerHTML = '<div class="alert alert-danger">Lütfen geri bildiriminizi yazın.</div>';
+          return;
+        }
+        
+        messageElement.innerHTML = '<div class="alert alert-success">Geri bildiriminiz için teşekkür ederiz!</div>';
+        document.getElementById('feedbackText').value = '';
+      });
+    </script>
+  </body>
+</html>
